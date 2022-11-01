@@ -1,0 +1,13 @@
+{
+  "name": "lighthouse-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "report-baidu": "node ./tests/baidu.js",
+    "report-keting": "node ./tests/keting.js"
+  },
+  "dependencies": {
+    "lighthouse": "^9.6.7"
+  }
+}
